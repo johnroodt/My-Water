@@ -15,6 +15,7 @@
 		D7FDDCEE1CC65E7C0054595E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FDDCEC1CC65E7C0054595E /* LaunchScreen.storyboard */; };
 		D7FDDCF91CC65E7C0054595E /* My_WaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FDDCF81CC65E7C0054595E /* My_WaterTests.swift */; };
 		D7FDDD041CC65E7C0054595E /* My_WaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FDDD031CC65E7C0054595E /* My_WaterUITests.swift */; };
+		D7FDDD161CC6A1E70054595E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FDDD151CC6A1E70054595E /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D7FDDCFF1CC65E7C0054595E /* My WaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My WaterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FDDD031CC65E7C0054595E /* My_WaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_WaterUITests.swift; sourceTree = "<group>"; };
 		D7FDDD051CC65E7C0054595E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FDDD151CC6A1E70054595E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D7FDDCEC1CC65E7C0054595E /* LaunchScreen.storyboard */,
 				D7FDDCEF1CC65E7C0054595E /* Info.plist */,
 				D7FDDCE71CC65E7C0054595E /* My_Water.xcdatamodeld */,
+				D7FDDD151CC6A1E70054595E /* MapViewController.swift */,
 			);
 			path = "My Water";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				D7FDDCE91CC65E7C0054595E /* My_Water.xcdatamodeld in Sources */,
 				D7FDDCE31CC65E7C0054595E /* ViewController.swift in Sources */,
 				D7FDDCE11CC65E7C0054595E /* AppDelegate.swift in Sources */,
+				D7FDDD161CC6A1E70054595E /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

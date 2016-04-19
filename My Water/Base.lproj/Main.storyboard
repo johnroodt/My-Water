@@ -28,5 +28,28 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="WSm-Gk-tFZ">
+            <objects>
+                <viewController id="iSi-R2-QyA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lLR-Ij-WpO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zyf-gP-if6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aTd-nf-YSI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4TI-1q-p9y">
+                                <rect key="frame" x="20" y="28" width="568" height="546"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="szu-qx-RDC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1007" y="346"/>
+        </scene>
     </scenes>
 </document>
